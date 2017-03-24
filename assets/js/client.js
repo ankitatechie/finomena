@@ -5,7 +5,7 @@
         allAns: [],
         rightAns: 0,
         wrongAns: 0,
-        username: null,
+        userName: null,
         clicks: 0
     }
 
@@ -75,7 +75,7 @@
             }
             $('.result-ques').append(questSet);                
         }
-        $('#userName').innerText = userInfo.userName;
+        $('#userName').text(userInfo.userName);
         $('.wrapper').hide();
     }
     
