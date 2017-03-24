@@ -1,0 +1,32 @@
+[
+   {
+    "ques"   : "Who directed 'The Dark Knight'(2008)?",
+    "option1": "Christopher Nolan",
+    "option2": "Zack Snyder",
+    "right"  :  "Christopher Nolan"
+    },
+    {
+    "ques"   : " What is the name of the young lion whose story is told in the musical 'The Lion King'?",
+    "option1": "Leo",
+    "option2": "Simba",
+    "right"  : "Simba"
+    },
+    {
+    "ques"   : "Who gave the music for the Oscar-winning movie 'The Slumdog Millionaire'?",
+    "option1": "Nusrat Fateh Ali Khan",
+    "option2": "A.R. Rahman",
+    "right"  : "A.R. Rahman"
+    },
+    {
+    "ques"   : "Which country's freedom struggle is portrayed in the Mel Gibson movie 'Braveheart'?",
+    "option1": "Scotland",
+    "option2": "Vietnam",
+    "right"  : "Scotland"
+    },
+    {
+    "ques"   : "Who played the male lead opposite Sharon Stone in the hugely successful movie 'The Basic Instinct'?",
+    "option1": "Harrison Ford",
+    "option2": "Michael Douglas",
+    "right"  : "Michael Douglas"
+    }
+]

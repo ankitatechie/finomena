@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Finomena</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="cleartype" content="on" />
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=yes">
+
+    <link rel="stylesheet" media="all" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css"> -->
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="home" id="home">
+                <img src="assets/images/logo.svg" class="logo">
+                <form>
+                   <label>Welcome! <br>Signup to continue to ollo</label>
+                   <div class="home__input">
+                       <input type="text" name="fname" id="name" class="btn" placeholder="First name">
+                       <input type="text" name="lname" id="lname" class="btn" placeholder="Last name">
+                   </div>
+                   <button type="submit" id="submit" class="button">Next</button> 
+                   <p class="js-required required">Firstname is required</p>
+                </form>
+            </div>
+            <div class="ques-layout" id="ques-layout">
+                <p id="ques-para" class="ques-para"></p>
+                <ul>
+                    <li id="option1" class="btn option"></li>
+                    <li id="option2" class="btn option"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="result-layout" id="result-layout">
+            <div class="result-container">
+                <div class="result-graph">
+                    <canvas id="myChart" width="400px" height="400px"></canvas>
+                </div>
+                <div class="result-ques">
+                    <div class="result-heading">
+                        <a>What a day!</a> 
+                        <a id="userName" style="font-weight: 600:"></a>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+    <script type="text/javascript" src="assets/js/client.js"></script>
+    
+  
+
+</body>
+</html>
