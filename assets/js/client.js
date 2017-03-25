@@ -87,11 +87,12 @@
           data: {
             labels: ["Right", "Wrong"],
             datasets: [{
-              backgroundColor: [
-                "#10963c",
-                "#ff3b3b"
-              ],
-              data: [userInfo.rightAns, userInfo.wrongAns]
+                backgroundColor: [
+                    "#10963c",
+                    "#ff3b3b"
+                ],
+                borderWidth: 1,
+                data: [userInfo.rightAns, userInfo.wrongAns]
             }]
           }
         });
